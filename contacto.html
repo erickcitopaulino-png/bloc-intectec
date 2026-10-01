@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto | Grupo Intectec</title>
+    <meta name="description" content="Sitio corporativo de Grupo Intectec">
+    <link rel="icon" href="/static/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/static/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/static/img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="section contacto-page-section">
+      <div class="container cc-page-shell">
+
+        <div class="cc-intro">
+          <span class="eyebrow">Conversemos</span>
+          <h1>Contacto</h1>
+          <p>Cuéntanos qué necesitas y nos pondremos en contacto contigo a la brevedad.</p>
+
+          <div class="contact-list">
+            <div class="contact-item"><strong>Correo:</strong> contacto@grupointectec.com</div>
+            <div class="contact-item"><strong>Teléfono:</strong> +52 722 560 3121</div>
+            <div class="contact-item"><strong>Ubicación:</strong> Av. del Panteón, No 43, San Diego Alcalá, Temoaya, Estado de México, México, C.P. 50890</div>
+          </div>
+        </div>
+
+        <div class="cc-card">
+          <div class="cc-heading">Contáctanos</div>
+
+          <form class="cc-form" method="POST" action="/contacto" autocomplete="off">
+            <input class="cc-input" required type="text" name="nombre" id="nombre" placeholder="Tu nombre" maxlength="100">
+            <input class="cc-input" required type="email" name="correo" id="correo" placeholder="tu@empresa.com" maxlength="150">
+            <input class="cc-input" type="text" name="empresa" id="empresa" placeholder="Nombre de tu empresa" maxlength="150">
+            <textarea class="cc-input cc-textarea" required name="mensaje" id="mensaje" rows="4" placeholder="Cuéntanos qué necesitas" maxlength="1000"></textarea>
+
+            <div class="website-field" aria-hidden="true">
+              <label for="website">No llenar este campo</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="turnstile-wrapper cf-turnstile" data-sitekey="0x4AAAAAACwZn73Wd-IRXCqW"></div>
+
+            <input class="cc-submit" type="submit" value="Enviar mensaje">
+          </form>
+
+          /*redes sociales*/
+
+        <!-- REDES SOCIALES -->
+<div class="footer-social-item">
+
+  <span class="cc-social-title">
+    O escríbenos por
+  </span>
+
+  <div class="cc-social-accounts">
+
+    <!-- WHATSAPP -->
+    <a
+      class="cc-social-button"
+      href="https://wa.me/5513732533"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp"
+      data-social="whatsapp"
+    >
+      <span class="social-filled"></span>
+
+      <img
+        src="/static/img/social/whatsapp.png"
+        alt="WhatsApp"
+        class="cc-social-icon"
+      >
+    </a>
+
+
+    <!-- FACEBOOK -->
+    <a
+      class="cc-social-button"
+      href="https://facebook.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Facebook"
+      data-social="facebook"
+    >
+      <span class="social-filled"></span>
+
+      <img
+        src="/static/img/social/facebook.png"
+        alt="Facebook"
+        class="cc-social-icon"
+      >
+    </a>
+
+
+    <!-- INSTAGRAM -->
+    <a
+      class="cc-social-button"
+      href="https://instagram.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Instagram"
+      data-social="instagram"
+    >
+      <span class="social-filled"></span>
+
+      <img
+        src="/static/img/social/instagram.png"
+        alt="Instagram"
+        class="cc-social-icon"
+      >
+    </a>
+
+
+    <!-- LINKEDIN -->
+    <a
+      class="cc-social-button"
+      href="https://www.linkedin.com/in/grupo-intectec-59012735b"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+      data-social="linkedin"
+    >
+      <span class="social-filled"></span>
+
+      <img
+        src="/static/img/social/linkedin.png"
+        alt="LinkedIn"
+        class="cc-social-icon"
+      >
+    </a>
+
+  </div>
+
+</div>
+
+          <span class="cc-agreement"><a href="/aviso-privacidad">Aviso de privacidad</a></span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+  <div id="site-footer"></div>
+
+
+  <script src="/static/js/loadpartials.js"></script>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
